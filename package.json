@@ -1,0 +1,21 @@
+{
+  "name": "sorted",
+  "version": "1.0.0",
+  "description": "Merge three integer arrays into a single sorted ascending array",
+  "main": "dist/merge.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "start": "ts-node src/main.ts"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.4",
+    "typescript": "^5.4.5"
+  }
+}
